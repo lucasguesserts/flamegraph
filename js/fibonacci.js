@@ -4,7 +4,7 @@ function fib(x) {
     return fib(x - 1) + fib(x - 2);
   }
   
-  for (let i = 0; i < 45; ++i) {
+  for (let i = 0; i < 35; ++i) {
     console.log(fib(i));
   }
   

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+rm -rf isolate*.log
+rm -rf flamegraph.html
+
+node --prof fibonacci.js
+node --prof-process --preprocess -j isolate*.log > perf.json
+
+rm -rf isolate*.log
+
+flamebearer perf.json

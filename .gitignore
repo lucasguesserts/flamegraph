@@ -1,2 +1,9 @@
-FIBONACCI
+# perf
 *perf*
+
+# cpp
+FIBONACCI
+
+# js
+isolate*.log
+flamegraph.html
