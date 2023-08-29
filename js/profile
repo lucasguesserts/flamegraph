@@ -8,4 +8,4 @@ node --prof-process --preprocess -j isolate*.log > perf.json
 
 rm -rf isolate*.log
 
-flamebearer perf.json
+npx flamebearer perf.json

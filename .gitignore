@@ -1,6 +1,9 @@
 # perf
 *perf*
 
+# node
+node_modules/
+
 # cpp
 FIBONACCI
 
